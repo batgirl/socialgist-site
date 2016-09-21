@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Socialgist</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/34c770bd6e.js"></script>
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link type="text/css" href="https://fonts.googleapis.com/css?family=Assistant:300" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="animate.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+<!-- ======= -->
+<!-- <link href="main.css" rel="stylesheet"> -->
+
+</head>
+<body>
+
+      <nav class="navbar navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="logo" src="images/SG_LogoFinal_Registered-copy.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+        <li><a href="#!/view2">Sources</a></li>
+        <li><a href="#!/view3">Products</a></li>
+        <li><a href="#!/view4">Benefits</a></li>
+        <li><a href="#!/view5"><button type="button" class="btn btn-default navbar-btn">Contact Us</button></a></li>
+      </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ng-view></div>
+
+  <!-- <div>Angular seed app: v<span app-version></span></div> -->
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="footer-img-div col-sm-2">
+            <img class="footer-img" src="images/SG_ThoughtBubble_White-250x250.png">
+          </div>
+          <div class="col-sm-2">
+            <ul>
+              <li class="list-title">Company</li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <ul>
+              <li class="list-title">Sources</li>
+              <li><a href="#">Crawling</a></li>
+              <li><a href="#">Content Licensing</a></li>
+              <li><a href="#">Connectors</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <ul>
+              <li class="list-title">Products</li>
+              <li><a href="#">Rest API</a></li>
+              <li><a href="#">Persistent Query API</a></li>
+              <li><a href="#">Full Feed</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact col-sm-2">
+          <div class="row">
+            <a href="https://twitter.com/Socialgistcorp"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/3115239?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A204922501369355990261%2CVSRPtargetId%3A3115239%2CVSRPcmpt%3Aprimary"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="row">
+            <p>+1-719-555-1234</p>
+          </div>
+          <div class="row">
+            <p>contact@socialgist.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="container row">
+        <p class="copyright">Copyright &copy; 2016 Socialgist. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js"></script>
+  <script src="view3/view3.js"></script>
+  <script src="view4/view4.js"></script>
+  <script src="view5/view5.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+  <!-- ========= -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

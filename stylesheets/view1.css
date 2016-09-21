@@ -1,0 +1,257 @@
+.homepage .jumbotron {
+  margin-bottom: 0;
+}
+
+.homepage .btn {
+  font-size: 16px;
+}
+
+.homepage .learnmore {
+  text-align: center;
+  /*background-color: rgba(111, 194, 230, 0.3);*/
+  background-color: rgba(0,51,79,0.94);
+  z-index: 10;
+}
+
+.homepage .learnmore > .container {
+  height: 350px;
+}
+
+.homepage .learnmore h1, .homepage .solutions h1, .homepage .ready h1 {
+  font-size: 40px;
+}
+
+.homepage .learnmore h1 {
+  color: #FFFFFF;
+  margin-top: 70px;
+  font-size: 50px;
+}
+
+.homepage .learnmore p {
+  font-size: 26px;
+  color: white;
+}
+
+.homepage .learnmore .btn {
+  margin-top: 40px;
+  background-color: #FF7832;
+  border-color: transparent;
+  border-width: 2px;
+}
+
+.homepage .learnmore .btn:hover {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FF7832;
+  color: #FF7832;
+}
+
+.homepage img {
+  height: 450px;
+  position: absolute;
+  z-index: -100;
+  padding-left: 20%;
+  padding-top: 20px;
+}
+
+.homepage .solutions {
+  height: 550px;
+  background-color: #FFFFFF;
+}
+
+.homepage .solutions h1 {
+  margin-top: 40px;
+}
+
+.homepage .solutions .row {
+  padding: 30px;
+}
+
+.homepage .solutions li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.homepage .solutions ul {
+  margin-left: 70px;
+}
+
+.homepage .solutions .trialbutton {
+  text-align: center;
+}
+
+.homepage .solutions .trialbutton .btn {
+  border: solid;
+  border-width: 2px;
+  border-color: #000000;
+  color: #000000;
+  background-color: transparent;
+}
+
+.homepage .solutions .trialbutton .btn:hover {
+  border-color: #transparent;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.homepage .solutions .infographic {
+  font-size: 100px;
+  padding-left: 90px;
+  margin-top: -30px;
+}
+
+.homepage .solutions .infographic .fa-globe, .fa-code {
+  color: #29AAE1;
+}
+
+.homepage .solutions .infographic .fa-cubes {
+  color: #00334F;
+  padding-left: 10px;
+}
+
+.homepage .contentProvider h1, .homepage .sources h1 {
+  font-size: 30px;
+}
+
+.homepage .contentProvider {
+  background-color: #000000;
+  height: 350px;
+}
+
+.homepage .contentProvider h1 {
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.homepage .contentProvider .row {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.homepage .contentProvider p {
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.homepage .contentProvider .fa-comments-o {
+  color: #FF7832;
+  font-size: 130px;
+  margin-top: -40px;
+}
+
+.homepage .contentProvider .btn {
+  border: solid;
+  border-width: 2px;
+  border-color: #29AAE1;
+  color: #29AAE1;
+  background-color: transparent;
+}
+
+.homepage .contentProvider .btn:hover {
+  border-color: #transparent;
+  color: #000000;
+  background-color: #29AAE1;
+}
+
+.homepage .sources {
+  height: 400px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.homepage .sources .btn {
+  margin-top: 40px;
+  border: solid;
+  border-width: 2px;
+  border-color: #000000;
+  color: #000000;
+  background-color: transparent;
+}
+
+.homepage .sources .btn:hover {
+  border-color: #transparent;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.homepage .sources .sourcesSlider {
+  color: #00334F;
+  font-size: 70px;
+  margin-top: 30px;
+}
+
+
+
+
+.homepage .ready {
+  height: 550px;
+  background-color: #323232;
+  margin-bottom: 0;
+}
+
+.homepage .ready .btn {
+  margin-top: 40px;
+  background-color: #FF7832;
+  border-color: transparent;
+  border-width: 2px;
+}
+
+.homepage .ready .btn:hover {
+  background-color: #29AAE1;
+}
+
+.homepage .ready h1 {
+  color: #FF7832;
+  margin-top: 80px;
+}
+
+.homepage .ready p {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding-right: 80px;
+}
+
+.homepage .ready .fa-bar-chart {
+  color: #FF7832;
+  font-size: 140px;
+  margin-top: 90px;
+}
+
+.homepage .ready .barChart {
+  text-align: center;
+}
+
+.homepage .ready .getTheGist {
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+.homepage .median {
+  height: 60px;
+}
+
+.homepage .median.one {
+  background-color: #000000;
+}
+
+.homepage .median.two {
+  background-color: #FF7832;
+}
+
+.homepage .median.three {
+  background-color: #29AAE1;
+}
+
+.homepage .median p {
+  color: #FBFBFB;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
