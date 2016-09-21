@@ -2,12 +2,10 @@
   "name": "socialgist-site",
   "version": "1.0.0",
   "devDependencies": {
-    // "bower": "^1.7.7",
     "http-server": "^0.9.0",
     "protractor": "^3.2.2"
   },
   "scripts": {
-    // "postinstall": "bower install",
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1 ./app",
     "pretest": "npm install",
