@@ -17,5 +17,17 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caalnaji/socialgist-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caalnaji/socialgist-site/issues"
+  },
+  "homepage": "https://github.com/caalnaji/socialgist-site#readme",
+  "description": ""
 }
